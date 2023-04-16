@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/query.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="/js/script.js"></script>
+    <title>Countries App</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Where in the world?</h1>
+      <h3>Dark mode</h3>
+    </header>
+    <aside class="containers display-none"></aside>
+    <main class="container">
+      <div class="sub-header">
+        <input
+          class="search-tab"
+          type="search"
+          placeholder="Search for a country..."
+        />
+        <div class="drop-down">
+          <button class="drop-down-btn">
+            Filter by Region
+            <ion-icon class="icon" name="chevron-down-outline"></ion-icon>
+          </button>
+          <div class="drop-down-list" id="drop-list">
+            <a href="#">Africa</a>
+            <a href="#">Americas</a>
+            <a href="#">Asia</a>
+            <a href="#">Europe</a>
+            <a href="#">Oceania</a>
+          </div>
+        </div>
+      </div>
+      <article class="country"></article>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

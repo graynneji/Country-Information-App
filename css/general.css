@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 98%);
+  letter-spacing: 0.08rem;
+}
+.container {
+  max-width: 1440rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  /* width: min(100% - 3.2rem, 1440rem);
+  margin-inline: auto; */
+}
+.containers {
+  max-width: 1440rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  /* width: min(100% - 3.2rem, 1440rem);
+  margin-inline: auto; */
+}
+.country {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.countrys {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
